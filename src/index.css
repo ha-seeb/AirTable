@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* In your global stylesheet */
+.uppy-dashboard-modal .uppy-Dashboard-inner {
+    @apply bg-white rounded-lg p-6; /* Applying Tailwind classes to the modal content */
+  }
+  
+  .uppy-dashboard-modal .uppy-DashboardTabs-tab {
+    @apply text-gray-800 font-medium; /* Customize tab text */
+  }
+  
+  .uppy-dashboard-modal .uppy-Dashboard--modal {
+    @apply max-w-4xl w-full h-[80vh]; /* Set max width, full width, and height */
+  }
+  
