@@ -7,7 +7,7 @@ import Work from "../Component/Work"
 
 const Main = () => {
   return (
-    <div className="py-10 px-60">
+    <div className="lg:py-10 lg:px-60 ">
       <PersonelInfo />
       <OnlyFans />
       <Content />
